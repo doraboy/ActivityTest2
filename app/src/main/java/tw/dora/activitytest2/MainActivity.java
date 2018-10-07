@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.d("brad","onActivityResult():來源編號"+requestCode+":回傳結果"+resultCode);
+        Log.d("brad","onActivityResult():來源編號 "+requestCode+":回傳結果"+resultCode);
 
         if (requestCode == 2) {
             String username = data.getStringExtra("username");
